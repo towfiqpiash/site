@@ -1404,6 +1404,46 @@ a.readmore-btn {
 	float: right
 }
 
+.contactform-submit-btn{
+	padding: 15px 60px 15px 30px;
+    background: #22cd6f;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    text-align: left;
+    border: 1px solid transparent;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.contactform-submit-btn:hover{
+	border-color: #22cd6f;
+    background: 0 0;
+    color: #22cd6f;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.contactform-submit-btn i{
+	background: #fff;
+    color: #22cd6f;
+    height: 35px;
+    width: 35px;
+    text-align: center!important;
+    position: absolute;
+    right: 13px;
+    line-height: 35px;
+    border-radius: 3px;
+    top: 50%;
+    margin-top: -17.5px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
 a.subscribe-btn {
 	padding: 15px 60px 15px 30px;
 	background: #22cd6f;
